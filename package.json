@@ -1,12 +1,23 @@
 {
   "name": "html-theme-creator",
-  "description": "",
+  "description": "Package to create professional and customizable html themes easily using Bootstrap 4.",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "grunt",
     "build": "grunt build"
   },
+  "keywords": [
+    "html",
+    "bootstrap 4",
+    "theme builder",
+    "sass",
+    "scss",
+    "style",
+    "compile",
+    "preprocess",
+    "browserSync"
+  ],
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-autoprefixer": "^3.0.4",
