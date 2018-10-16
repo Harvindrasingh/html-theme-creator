@@ -1,3 +1,4 @@
+@import "kulwinder/fonts";
 // Variables
 //
 // Variables should follow the `$component-state-property-size` formula for
@@ -227,8 +228,8 @@ $transition-collapse:         height .35s ease !default;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      "Futura" !default;
-$font-family-monospace:       "Futura" !default;
+$font-family-sans-serif:      "Alcubierre" !default;
+$font-family-monospace:       "Alcubierre" !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
