@@ -1,0 +1,23 @@
+.about__me {
+	position: absolute;
+	background: $primary;
+	color: white;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+    &-detail {
+    	padding: 50px;
+    }
+}
+
+.profile__pic {
+	text-align: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff url(/images/kulwinder-kohli.png) no-repeat;
+    background-size: contain;
+    background-position: 50% 75px;
+    left: 0px;
+    right: 0px;
+}
