@@ -1,6 +1,25 @@
+.profile__pic-section {
+    min-height: 250px;
+    background: #fff url(/images/seamless-code.png);
+    background-size: 50%;
+    animation: 500s scroll infinite linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scroll {
+    100% {
+        background-position: 10000px 10000px;
+    }
+}
+
+.about {
+    background: $primary url('../images/background.png') no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
 .about__me {
 	position: absolute;
-	background: $primary;
 	color: white;
 	height: 100%;
 	width: 100%;
@@ -10,14 +29,42 @@
     }
 }
 
+.footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    height: 50px;
+    bottom: 0;
+    padding: 14px 0 0;
+    .copyright {
+        margin: 0;
+    }
+}
+
 .profile__pic {
 	text-align: center;
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #fff url(/images/kulwinder-kohli.png) no-repeat;
+    background: rgba(255, 255, 255, 0.90)  url(/images/kulwinder-kohli.png) no-repeat;
     background-size: contain;
-    background-position: 50% 75px;
+    background-position: 25% 75px;
     left: 0px;
     right: 0px;
+    .heading {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        transform: rotate(-20deg);
+        text-decoration: underline;
+    }
+}
+
+.kulwinder__coding {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: 30px;
+    width: 200px;
 }

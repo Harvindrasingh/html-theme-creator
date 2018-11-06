@@ -47,7 +47,7 @@ button:focus {
 @import "utilities";
 @import "print";
 
-@import "../../node_modules/fullpage.js/dist/fullpage";
+// @import "../../node_modules/fullpage.js/dist/fullpage";
 @import "kulwinder/section";
 @import "kulwinder/banner";
 @import "kulwinder/heading";
@@ -55,3 +55,6 @@ button:focus {
 @import "kulwinder/letterfx";
 @import "kulwinder/about";
 @import "kulwinder/helper";
+@import "kulwinder/bouncy";
+@import "kulwinder/slick";
+@import "kulwinder/slick-theme";
